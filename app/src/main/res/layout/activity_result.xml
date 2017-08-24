@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.record.time.timeredcord.activity.ResultActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size25sp"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/result_page"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/start_date"
+                android:textSize="@dimen/text_size25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="@string/start_time"
+                android:textSize="@dimen/text_size25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="@string/time_duration"
+                android:textSize="@dimen/text_size25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="1"
+                android:id="@+id/start_date"
+                android:textSize="@dimen/text_size25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="2"
+                android:id="@+id/start_time"
+                android:textSize="@dimen/text_size25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="3"
+                android:id="@+id/time_duration"
+                android:textSize="@dimen/text_size25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:text="@string/consumption_time"
+        android:textSize="@dimen/text_size25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/padding_10dp"
+        android:layout_marginBottom="@dimen/padding_10dp"
+        android:padding="@dimen/padding_10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:padding="@dimen/padding_10dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            w
+            <TextView
+                android:id="@+id/hour"
+                android:text="08"
+                android:gravity="center"
+                android:textSize="@dimen/text_size20sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bg"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/text_size20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/minute"
+                android:text="30"
+                android:gravity="center"
+                android:textSize="@dimen/text_size20sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bg"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/text_size20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/second"
+                android:text="40"
+                android:gravity="center"
+                android:textSize="@dimen/text_size20sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bg"/>
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:tint="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_thumb_up_black_48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TimeRedcord</string>
+
+    <string name="result_page">Result Page</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="time_duration">Time Duration</string>
+    <string name="consumption_time">Total Consumption Time</string>
+
+
+</resources>
